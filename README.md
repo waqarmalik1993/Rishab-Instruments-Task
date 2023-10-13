@@ -50,3 +50,58 @@ DELETE /api/delete-user/:id - Delete a user from the user's list.
 
 # User Authentication
 This project uses JWT for user authentication. To access protected routes, you must include a valid JWT token in the request header as follows:
+
+
+# Rishabh Technical CRUD App Angular
+
+Rishabh Technical CRUD App is an Angular application that provides a user interface for managing users data using a CRUD interface. It includes login and registration functionality, users details ist display in table and delete ,edit and update crud uses, and utilizes JWT (JSON Web Tokens) for user authentication. The app also features several Angular components, services, and interceptors for enhanced functionality.
+
+# Project Structure
+Task-Angular-Front
+|-- src
+|   |-- app
+|   |   |-- auth-guard
+|   |   |   `-- auth.guard.ts
+|   |   |-- auth-service
+|   |   |   `-- auth.service.ts
+|   |   |-- error-interceptor
+|   |   |   `-- error.interceptor.ts
+|   |   |-- token-interceptor
+|   |   |   `-- token.interceptor.ts
+|   |   |-- login
+|   |   |   |-- login.component.html
+|   |   |   |-- login.component.ts
+|   |   |-- register
+|   |   |   |-- register.component.html
+|   |   |   |-- register.component.ts
+|   |   |-- home
+|   |   |   |-- home.component.html
+|   |   |   |-- home.component.ts
+|   |-- assets
+|   |   |-- images
+|   |   |   `-- logo.png
+|-- node_modules
+|-- package.json
+|-- package-lock.json
+|-- angular.json
+|-- tsconfig.json
+|-- README.md
+
+# Installation
+Before running the Angular app, make sure you have the following prerequisites installed on your machine:
+
+Node.js and Angualr Cli 12.2.5 to run Project 
+# Follow these steps to set up and run the project:
+cd Task-Angualr-Front
+
+# Install project dependencies using npm (use the --force flag to ensure dependencies are reinstalled):
+npm install --force
+
+# Start the Angular development server:
+ng serve
+
+# environment folder for Backend API 
+Default set in development : http://localhost:5000/api
+Default set in Production : http://noblescreation.com/api
+
+
